@@ -93,3 +93,19 @@ The mean temperature change is approximately 0.54°C, with a median of 0.47°C a
 Average CO₂ concentration per calendar month across years.
 
 Highest levels around April–May; lowest around September–October, suggesting seasonal biosphere absorption.
+
+## 📌 Visualizations
+
+- **Time-Series Line Charts** (Plotly)
+- **Correlation Heatmap** (Seaborn)
+- **CO₂ vs. Temperature Scatter Plot**
+- **Regression Line Fitting**
+- **Seasonal Line Graph (Monthly CO₂ Averages)**
+
+## Time-Series Analysis
+
+Next, we’ll examine how temperature changes and CO₂ concentrations have evolved overtime and the relationships between them:
+
+<img width="1149" alt="Screenshot 2025-05-16 at 5 44 25 PM" src="https://github.com/user-attachments/assets/af90bdf0-61e5-442b-a473-114734570920" />
+
+The time-series graph shows a consistent increase in CO₂ concentrations (measured in ppm) over the years, which indicates the accumulation of greenhouse gases in the atmosphere. Simultaneously, a slight upward trend in global temperature change suggests that rising CO₂ levels are associated with global warming. The temporal alignment supports the hypothesis of CO₂’s significant contribution to temperature increase.
