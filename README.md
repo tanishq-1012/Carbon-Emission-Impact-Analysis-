@@ -129,3 +129,22 @@ The graph shows the linear trends in both temperature change and CO₂ concentra
 <img width="1149" alt="Screenshot 2025-05-16 at 5 45 18 PM" src="https://github.com/user-attachments/assets/76c9db14-5a02-4496-b1bc-8275aca1bdd8" />
 
 The above graph highlights the seasonal fluctuations in CO₂ concentrations, which peak during late spring and early summer (around May) and reach the lowest levels in fall (around September). These variations are likely due to natural processes such as plant photosynthesis, which absorbs CO₂ during the growing season, and respiration, which releases CO₂ in the off-season. This seasonal cycle underscores the role of natural carbon sinks in moderating atmospheric CO₂ levels.
+
+## Correlation and Causality Analysis
+
+To quantify the relationship between CO₂ and temperature anomalies, we will now compute Pearson and Spearman correlation coefficients. And to investigate whether changes in CO₂ cause temperature anomalies, we will perform Granger Causality tests:
+
+<img width="446" alt="Screenshot 2025-05-16 at 5 45 46 PM" src="https://github.com/user-attachments/assets/bd431149-ff5a-4bba-8d27-170186b8d70f" />
+
+Pearson Correlation (0.9554) indicates a very strong linear relationship between CO₂ concentrations and temperature changes. Spearman Correlation (0.9379) indicates a very strong monotonic relationship between CO₂ concentrations and temperature changes.
+
+Granger Causality Test: The p-values for lags 1, 2, and 3 are as follows:
+
+Lag 1: 0.0617 (slightly above the common significance threshold of 0.05, suggesting weak evidence for causality).
+
+Lag 2: 0.6754 (not significant, no evidence of causality).
+
+Lag 3: 0.2994 (not significant, no evidence of causality).
+There is a very strong correlation between CO₂ concentrations and temperature changes. 
+
+However, Granger Causality tests do not provide strong evidence that changes in CO₂ concentrations directly cause changes in temperature within the lags tested.
