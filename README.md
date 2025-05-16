@@ -205,3 +205,13 @@ A 10% increase in CO₂ results in a notable rise in temperature anomalies, whic
 - Seasonal patterns in CO₂ suggest natural absorption cycles (e.g., vegetation photosynthesis).
 - Quantitative evidence supports urgent climate policy decisions focused on reducing emissions.
 
+## 🚀 How to Run the Project
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/carbon-impact-analysis.git
+   cd carbon-impact-analysis
+
+## Install dependencies:
+
+pip install -r requirements.txt
