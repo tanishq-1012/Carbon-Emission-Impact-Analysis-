@@ -109,3 +109,7 @@ Next, we’ll examine how temperature changes and CO₂ concentrations have evol
 <img width="1149" alt="Screenshot 2025-05-16 at 5 44 25 PM" src="https://github.com/user-attachments/assets/af90bdf0-61e5-442b-a473-114734570920" />
 
 The time-series graph shows a consistent increase in CO₂ concentrations (measured in ppm) over the years, which indicates the accumulation of greenhouse gases in the atmosphere. Simultaneously, a slight upward trend in global temperature change suggests that rising CO₂ levels are associated with global warming. The temporal alignment supports the hypothesis of CO₂’s significant contribution to temperature increase.
+
+<img width="1149" alt="Screenshot 2025-05-16 at 5 44 39 PM" src="https://github.com/user-attachments/assets/a9d00495-e6dd-4e19-b800-340362304da9" />
+
+
