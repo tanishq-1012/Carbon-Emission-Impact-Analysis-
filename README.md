@@ -112,4 +112,8 @@ The time-series graph shows a consistent increase in CO₂ concentrations (measu
 
 <img width="1149" alt="Screenshot 2025-05-16 at 5 44 39 PM" src="https://github.com/user-attachments/assets/a9d00495-e6dd-4e19-b800-340362304da9" />
 
+The heatmap reveals a strong positive correlation (0.96) between CO₂ concentrations and temperature changes. This statistical relationship reinforces the observation that higher CO₂ levels are closely linked with increasing global temperatures, which highlights the importance of addressing carbon emissions to mitigate climate change.
 
+<img width="1149" alt="Screenshot 2025-05-16 at 5 44 52 PM" src="https://github.com/user-attachments/assets/93d47cca-4d89-4170-b96e-ff8b55339dbb" />
+
+The scatter plot shows a clear linear trend, where higher CO₂ concentrations correspond to greater temperature changes. This visual evidence underscores the direct relationship between CO₂ emissions and global warming, which provides further support for policies targeting reductions in carbon emissions to combat climate impacts.
