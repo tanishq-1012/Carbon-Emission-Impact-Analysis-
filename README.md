@@ -59,3 +59,37 @@ We are using two datasets:
 Now, let's calculate key statistics for tempreture changes and CO2 concentrations, such as mean, median, and varience:
 
 <img width="470" alt="Screenshot 2025-05-16 at 5 43 49 PM" src="https://github.com/user-attachments/assets/34b7a4ba-e2cb-405d-8aca-855b70fc7d61" />
+
+The mean temperature change is approximately 0.54°C, with a median of 0.47°C and a variance of 0.43, indicating slight variability in temperature anomalies. For CO₂ concentrations, the mean is 180.72 ppm, the median is significantly higher at 313.84 ppm, and the variance is 32,600, which reflects substantial variability in CO₂ levels over the dataset’s timeframe. This highlights the stronger fluctuation in CO₂ data compared to temperature changes.
+
+## 📈 Key Analyses
+
+### 1. Statistical Summary
+
+* Mean, median, standard deviation, variance, min, and max for both datasets.
+
+* Insight: CO₂ concentrations show a much higher range and variance than temperature anomalies.
+
+### 2. Time-Series Visualization
+
+* Line plots of CO₂ levels and temperature anomalies from 1958 to 2023.
+
+* Both variables show a clear increasing trend.
+
+##E 3. Correlation Analysis
+
+* Pearson Correlation Coefficient: ~0.96
+
+* A strong linear correlation exists between rising CO₂ and global warming.
+
+### 4. Linear Regression
+
+* Linear trend lines applied to both datasets.
+
+* Regression results show that both variables have statistically significant upward trends over time.
+
+### 5. Seasonal Variation
+
+Average CO₂ concentration per calendar month across years.
+
+Highest levels around April–May; lowest around September–October, suggesting seasonal biosphere absorption.
