@@ -124,3 +124,8 @@ Now, let’s identify long-term trends and seasonal variations in the data using
 
 <img width="1149" alt="Screenshot 2025-05-16 at 5 45 06 PM" src="https://github.com/user-attachments/assets/9cdf66b6-da41-4d73-8fe0-b92b94e9bd16" />
 
+The graph shows the linear trends in both temperature change and CO₂ concentrations over time, represented by their respective slopes. The CO₂ trend has a much steeper slope (0.32) compared to temperature (0.03), which indicates a faster rate of increase in CO₂ emissions relative to temperature change. This suggests that while CO₂ levels are rising rapidly, the temperature impact, though slower, is accumulating steadily and may have long-term consequences.
+
+<img width="1149" alt="Screenshot 2025-05-16 at 5 45 18 PM" src="https://github.com/user-attachments/assets/76c9db14-5a02-4496-b1bc-8275aca1bdd8" />
+
+The above graph highlights the seasonal fluctuations in CO₂ concentrations, which peak during late spring and early summer (around May) and reach the lowest levels in fall (around September). These variations are likely due to natural processes such as plant photosynthesis, which absorbs CO₂ during the growing season, and respiration, which releases CO₂ in the off-season. This seasonal cycle underscores the role of natural carbon sinks in moderating atmospheric CO₂ levels.
