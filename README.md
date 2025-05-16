@@ -190,3 +190,18 @@ For each scenario, we will adjust the current average CO₂ concentration by the
 <img width="549" alt="Screenshot 2025-05-16 at 5 47 27 PM" src="https://github.com/user-attachments/assets/330a731b-a819-43db-abc4-f252859a9083" />
 
 A 10% increase in CO₂ results in a notable rise in temperature anomalies, which demonstrates the sensitivity of global temperatures to CO₂ levels. Conversely, a 10-20% reduction in CO₂ could lead to significant cooling effects, which will potentially reverse some warming trends.
+
+## 📌 Visualizations
+
+- **Time-Series Line Charts** (Plotly)
+- **Correlation Heatmap** (Seaborn)
+- **CO₂ vs. Temperature Scatter Plot**
+- **Regression Line Fitting**
+- **Seasonal Line Graph (Monthly CO₂ Averages)**
+
+## 🧠 Key Takeaways
+
+- There is a clear **causal relationship** between increasing CO₂ levels and global temperature anomalies.
+- Seasonal patterns in CO₂ suggest natural absorption cycles (e.g., vegetation photosynthesis).
+- Quantitative evidence supports urgent climate policy decisions focused on reducing emissions.
+
