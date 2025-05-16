@@ -117,3 +117,10 @@ The heatmap reveals a strong positive correlation (0.96) between CO₂ concentra
 <img width="1149" alt="Screenshot 2025-05-16 at 5 44 52 PM" src="https://github.com/user-attachments/assets/93d47cca-4d89-4170-b96e-ff8b55339dbb" />
 
 The scatter plot shows a clear linear trend, where higher CO₂ concentrations correspond to greater temperature changes. This visual evidence underscores the direct relationship between CO₂ emissions and global warming, which provides further support for policies targeting reductions in carbon emissions to combat climate impacts.
+
+## Trends and Seasonal Variations Analysis
+
+Now, let’s identify long-term trends and seasonal variations in the data using linear regression:
+
+<img width="1149" alt="Screenshot 2025-05-16 at 5 45 06 PM" src="https://github.com/user-attachments/assets/9cdf66b6-da41-4d73-8fe0-b92b94e9bd16" />
+
