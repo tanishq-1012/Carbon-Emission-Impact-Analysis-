@@ -162,21 +162,31 @@ After creating these lagged variables, we will fit an Ordinary Least Squares (OL
 
 <img width="660" alt="Screenshot 2025-05-16 at 5 46 28 PM" src="https://github.com/user-attachments/assets/0c65236b-222d-47d7-8b67-7e5f8830b4e8" />
 
-The clustering graph segments years into three distinct climate patterns based on CO₂ concentration and temperature change: low CO₂ and temperature (green), moderate CO₂ and temperature (orange), and high CO₂ and temperature (blue). The progression from green to orange and then to blue clusters reflects a clear trend of increasing temperature change corresponding to rising CO₂ levels, effectively illustrating the correlation between greenhouse gas concentrations and global temperature variations.
-
-This clustering emphasizes the cumulative and escalating impact of carbon emissions on global temperature patterns, which illustrates the need for targeted interventions to mitigate future increases.
-
-## Predicting Temperature Changes Under What If Analysis
-
-
-
 The OLS regression results indicate a strong relationship between CO₂ concentration and temperature change, with an R-squared value of 0.949, meaning 94.9% of the variance in temperature change is explained by the model. The coefficient for CO₂ concentration (0.3245) is statistically significant (p < 0.05), which suggests a positive association between CO₂ levels and temperature change.
 
 ## Clustering Climate Patterns
 
 Next, we group years based on similarities in temperature anomalies and CO₂ concentrations using K-Means clustering:
 
-<img width="1162" alt="Screenshot 2025-05-16 at 5 47 03 PM" src="https://github.com/user-attachments/assets/b4e2e383-3ffd-4d4e-96b3-371e0dba4bc2" />
+<img width="1162" alt="Screenshot 2025-05-16 at 5 47 03 PM" src="https://github.com/user-attachments/assets/69b5e798-6775-4e1e-b028-7912656f7637" />
 
+The clustering graph segments years into three distinct climate patterns based on CO₂ concentration and temperature change: low CO₂ and temperature (green), moderate CO₂ and temperature (orange), and high CO₂ and temperature (blue). The progression from green to orange and then to blue clusters reflects a clear trend of increasing temperature change corresponding to rising CO₂ levels, effectively illustrating the correlation between greenhouse gas concentrations and global temperature variations.
 
+This clustering emphasizes the cumulative and escalating impact of carbon emissions on global temperature patterns, which illustrates the need for targeted interventions to mitigate future increases.
 
+## Predicting Temperature Changes Under What If Analysis
+
+Now, we will use a simple linear regression model to simulate how changes in CO₂ concentrations might influence global temperatures. By leveraging the historical relationship between CO₂ concentrations and temperature anomalies, this model allows us to predict the potential impact of different emission scenarios.
+
+First, we will train a linear regression model with CO₂ concentrations as the input and temperature anomalies as the output. Once the model is trained, we can simulate hypothetical scenarios where CO₂ concentrations increase or decrease by a specific percentage.
+
+For each scenario, we will adjust the current average CO₂ concentration by the specified percentage, feed it into the model, and predict the corresponding temperature anomaly. The scenarios we simulate include:
+
+**Increase CO₂ by 10%**: Predict the rise in temperature anomalies.
+**Decrease CO₂ by 10%**: Estimate the cooling effect.
+**Increase CO₂ by 20%**: Analyze the impact of more aggressive emissions growth.
+**Decrease CO₂ by 20%**: Evaluate the benefit of significant emission reductions.
+
+<img width="549" alt="Screenshot 2025-05-16 at 5 47 27 PM" src="https://github.com/user-attachments/assets/330a731b-a819-43db-abc4-f252859a9083" />
+
+A 10% increase in CO₂ results in a notable rise in temperature anomalies, which demonstrates the sensitivity of global temperatures to CO₂ levels. Conversely, a 10-20% reduction in CO₂ could lead to significant cooling effects, which will potentially reverse some warming trends.
