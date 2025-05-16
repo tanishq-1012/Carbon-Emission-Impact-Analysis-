@@ -148,3 +148,16 @@ Lag 3: 0.2994 (not significant, no evidence of causality).
 There is a very strong correlation between CO₂ concentrations and temperature changes. 
 
 However, Granger Causality tests do not provide strong evidence that changes in CO₂ concentrations directly cause changes in temperature within the lags tested.
+
+## Lagged Effects Analysis
+
+Now, we will analyze whether CO₂ concentrations from previous years (lagged values) influence current temperature anomalies. To do this, we will create lagged variables for CO₂ concentrations, specifically shifting the data by 1, 2, and 3 years. These lagged values will allow us to test if historical CO₂ levels have a delayed impact on temperature changes.
+
+After creating these lagged variables, we will fit an Ordinary Least Squares (OLS) regression model. This model will use current and lagged CO₂ levels as predictors to estimate their contribution to current temperature anomalies. By examining the regression results, we will determine:
+
+1. How strongly current CO₂ levels affect temperature changes.
+2. Whether CO₂ levels from previous years have a significant impact
+
+<img width="575" alt="Screenshot 2025-05-16 at 5 46 03 PM" src="https://github.com/user-attachments/assets/5a6e5af7-dcf3-43c6-9623-017e1409a391" />
+
+The OLS regression results indicate a strong relationship between CO₂ concentration and temperature change, with an R-squared value of 0.949, meaning 94.9% of the variance in temperature change is explained by the model. The coefficient for CO₂ concentration (0.3245) is statistically significant (p < 0.05), which suggests a positive association between CO₂ levels and temperature change.
