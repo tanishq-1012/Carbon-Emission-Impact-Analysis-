@@ -215,3 +215,37 @@ A 10% increase in CO₂ results in a notable rise in temperature anomalies, whic
 ## Install dependencies:
 
 pip install -r requirements.txt
+
+## Run the analysis:
+
+python carbon_analysis.py
+
+## Summary
+
+Our analysis highlights a strong positive correlation between rising CO₂ concentrations and global temperature anomalies, with CO₂ levels increasing at a faster rate than temperature changes. Time-series and clustering analyses reveal clear trends of escalating emissions driving temperature increases, while seasonal variations underscore the moderating role of natural carbon sinks. Lagged effects suggest that current CO₂ levels have the most significant impact on temperature changes, with diminishing influence from past emissions. Simulating “what-if” scenarios demonstrate the sensitivity of global temperatures to CO₂ levels, which emphasizes that even modest reductions in emissions could significantly mitigate global warming. These findings underline the urgent need for actionable policies to address climate change effectively.
+
+## 📌 Future Enhancements
+
+1.Predictive modeling using ARIMA or Prophet for CO₂ and temperature forecasting.
+
+2.Geo-based emission impact using satellite data.
+
+3.Integration with real-time climate APIs (e.g., Open-Meteo, Climate Data Store).
+
+## 👨‍💻 Author
+Tanishq Sharma
+
+📄 License
+This project is open source and available under the MIT License.
+
+yaml
+Copy
+Edit
+
+Would you like me to help:
+
+- Add a `requirements.txt`?
+- Export this as a `.md` file?
+- Convert it into a PowerPoint-style project summary?
+
+Let me know!
