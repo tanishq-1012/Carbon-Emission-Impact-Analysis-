@@ -76,7 +76,7 @@ The mean temperature change is approximately 0.54°C, with a median of 0.47°C a
 
 * Both variables show a clear increasing trend.
 
-##E 3. Correlation Analysis
+### 3. Correlation Analysis
 
 * Pearson Correlation Coefficient: ~0.96
 
